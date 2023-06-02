@@ -38,6 +38,8 @@ summary(subset)
 ```{r break-it-1}
 diamonds_subset <- diamonds %>%
   filter(price > 5000 & cut == 'Ideal')
+
+psych::describe(subset)
 ```
 
 ## STEP 10: And even more merge conflicts!
